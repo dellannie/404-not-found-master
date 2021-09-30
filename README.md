@@ -6,6 +6,6 @@ I spend some extra time learning more about the position propety. Even though I 
 
 ## Screenshots
 
-![](./images/404-desktop)
-![](./images/404-mobile)
+![](./images/404-desktop.jpg)
+![](./images/404-mobile.jpg)
  
