@@ -16,7 +16,8 @@ img{
 }
 
 .text-content h2,
-p {
+p,
+button {
     font-family: 'space mono';
 }
 
@@ -67,16 +68,42 @@ img {
     background-color: #333;
     color: white;
     border: 1px solid #333;
+    text-transform: uppercase;
 }
 
+/* media queries */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 984px) {
     img {
         position: absolute;
-        width: 286.83px;
-        height: 238px;
+        top: 209px;
+        left: 357px;
+    }
+    .text-content {
+        position: absolute;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        top: 718px;
+        left: 210px;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    img {
+        position: absolute;
+        top: 209px;
+        left: 209px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    img {
+        position: absolute;
+        width: 246.83px;
+        height: 228px;
         top: 109px;
-        left: 44px;
+        left: 84px;
     }
 
     .text-content {
@@ -107,13 +134,13 @@ img {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 524px) {
     img {
         position: absolute;
-        width: 246.83px;
-        height: 228px;
+        width: 286.83px;
+        height: 238px;
         top: 109px;
-        left: 84px;
+        left: 44px;
     }
 
     .text-content {
